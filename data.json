@@ -1,0 +1,79 @@
+{
+	"fruits": [
+		{
+			"name": "Apple",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg",
+			"price": 35
+		},
+		{
+			"name": "Banana",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bananas_white_background_DS.jpg/320px-Bananas_white_background_DS.jpg",
+			"price": 12
+		},
+		{
+			"name": "Grapes",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Table_grapes_on_white.jpg/320px-Table_grapes_on_white.jpg",
+			"price": 45
+		},
+		{
+			"name": "Pineapple",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/286px-Pineapple_and_cross_section.jpg",
+			"price": 20
+		},
+		{
+			"name": "Strawberry",
+			"image": "http://d20aeo683mqd6t.cloudfront.net/articles/title_images/000/039/158/medium/shutterstock_142361884.jpg?2019",
+			"price": 36
+		},
+		{
+			"name": "Mango",
+			"image": "https://scitechdaily.com/images/Fresh-Mango.jpg",
+			"price": 12
+		},
+		{
+			"name": "Watermelon",
+			"image": "https://all-americaselections.org/wp-content/uploads/2019/06/Watermelon-Mambo.jpg",
+			"price": 34
+		},
+		{
+			"name": "Peach",
+			"image": "http://static1.squarespace.com/static/5602f08de4b0cb7ca5d4a933/56e5b8805f21e0489f531567/56e5ba715f21e0489f532ed2/1457896049909/Peaches.jpg?format=original",
+			"price": 50
+		},
+		{
+			"name": "Cherry",
+			"image": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/health_benefits_of_cherries_slideshow/1800ss_getty_rf_cherries_alone.jpg?resize=650px:*",
+			"price": 50
+		},
+		{
+			"name": "Orange",
+			"image": "https://todaynews7.com/wp-content/uploads/2021/02/Orange.jpg",
+			"price": 16
+		},
+		{
+			"name": "Plum",
+			"image": "https://chefsmandala.com/wp-content/uploads/2018/03/Plum.jpg",
+			"price": 13
+		},
+		{
+			"name": "Guava",
+			"image": "https://sob-prd-cdn-products.azureedge.net/media/image/product/en/medium/0000000004299.jpg",
+			"price": 33
+		},
+		{
+			"name": "Melon",
+			"image": "http://www.frutas-hortalizas.com/img/fruites_verdures/presentacio/19.jpg",
+			"price": 25
+		},
+		{
+			"name": "Avocado",
+			"image": "https://www.msc.com/getattachment/de91b539-8042-4a52-b8ad-3757220cdc9e/637284221666816970",
+			"price": 34
+		},
+		{
+			"name": "Kiwi",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Kiwi_aka.jpg/800px-Kiwi_aka.jpg",
+			"price": 63
+		}
+	]
+}
