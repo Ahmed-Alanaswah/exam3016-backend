@@ -1,15 +1,16 @@
-// "use strict";
-// const superagent = require("superagent");
-// const fruitData = require("../data.json");
+"use strict";
+const superagent = require("superagent");
 
-// const getData = async (req, res) => {
-// 	superagent.get(fruitData).then((data) => {
-// 		const responseData = data.body.fruits.map((fruit) => {
-// 			return fruit;
-// 		});
+const getData = async (req, res) => {
+	superagent
+		.get("https://fruit-api-301.herokuapp.com/getFruit")
+		.then((data) => {
+			const responseData = data.body.fruits.map((fruit) => {
+				return fruit;
+			});
 
-// 		res.send(responseData);
-// 	});
-// };
+			res.send(responseData);
+		});
+};
 
-// module.exports = { getData };
+module.exports = { getData };

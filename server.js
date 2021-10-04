@@ -11,7 +11,7 @@ const {
 } = require("./controller/controller.crud");
 
 require("dotenv").config();
-// const { getData } = require("./controller/controller.fruit");
+const { getData } = require("./controller/controller.fruit");
 const mongoose = require("mongoose");
 mongoose.connect("mongodb://localhost:27017/fuits", {
 	useNewUrlParser: true,
@@ -26,9 +26,9 @@ app.use(express.json());
 const PORT = process.env.PORT;
 
 const data = require("./data.json");
-const getData = (req, res) => {
-	res.send(data.fruits);
-};
+// const getData = (req, res) => {
+// 	res.send(data.fruits);
+// };
 app.listen(PORT, () => {
 	console.log(`server start with ${PORT}`);
 	// console.log(data);
